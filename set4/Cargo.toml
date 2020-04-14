@@ -1,0 +1,14 @@
+[package]
+name = "set4"
+version = "0.1.0"
+authors = ["amartinez <amartinez@atlassian.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust-crypto = { git = "https://github.com/DaGenix/rust-crypto", branch = "master" }
+reqwest = "0.10.4"
+
+[dependencies.curl]
+git = "https://github.com/carllerche/curl-rust"
